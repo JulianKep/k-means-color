@@ -1,6 +1,5 @@
 #include <iostream>
 #include <windows.h>
-#include <pybind11/pybind11.h>
 
 int main()
 {
@@ -21,4 +20,5 @@ int main()
     SetConsoleTextAttribute(hConsole, 7);
     std::cout << "Hello World!\n";
     std::cout << "test_change";
+    std::cout << "pc_test_change";
 }
